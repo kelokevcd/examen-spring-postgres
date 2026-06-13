@@ -21,9 +21,9 @@ public class SpringBootPostgresApplication implements CommandLineRunner {
 		try {
 			// Realizamos una consulta simple para verificar la conexión
 			jdbcTemplate.execute("SELECT 1");
-			System.out.println("Conexión a PostgreSQL exitosa");
+			System.out.println(" Conexión a PostgreSQL exitosa");
 		} catch (Exception e) {
-			System.err.println("Error al conectar con PostgreSQL: " + e.getMessage());
+			System.err.println(" Error al conectar con PostgreSQL: " + e.getMessage());
 		}
 	}
 }
