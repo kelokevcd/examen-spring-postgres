@@ -27,11 +27,11 @@ Este proyecto es una aplicación de Spring Boot que se conecta a una base de dat
    ```
 3. Observa la consola durante el inicio. Deberías ver el siguiente mensaje indicando éxito:
    ```
-   ✅ Conexión a PostgreSQL exitosa
+   Conexión a PostgreSQL exitosa
    ```
    En caso de error (por credenciales o base de datos no creada), verás:
    ```
-   ❌ Error al conectar con PostgreSQL: [detalle_del_error]
+   Error al conectar con PostgreSQL: [detalle_del_error]
    ```
 
 ## Estructura del Proyecto
